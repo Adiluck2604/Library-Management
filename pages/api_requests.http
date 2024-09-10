@@ -1,0 +1,17 @@
+GET http://localhost:8000/api/enquiries/ HTTP/1.1
+
+###
+
+POST http://localhost:8000/api/enquiries/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "full_name": "Test from API",
+    "phone_number": "abcdef",
+    "activity": "FOO",
+    "college": "SRM",
+    "department": "Comp Science",
+    "semester": 4,
+    "subject": "OOP",
+    "book_name": "Python OOP Concepts"
+}
