@@ -8,7 +8,7 @@
         "editor.quickSuggestions": {
             "other": true,
             "comments": true,
-            "strings": true
+            "strings": true  
         },
         "editor.defaultFormatter": "monosans.djlint"
     }
